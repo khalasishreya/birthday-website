@@ -1023,3 +1023,10 @@ body {
     color: white;
     z-index: 10000000000000000;
 }
+.profile-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: 100%;
+}
