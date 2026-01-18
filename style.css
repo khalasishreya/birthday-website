@@ -1023,10 +1023,20 @@ body {
     color: white;
     z-index: 10000000000000000;
 }
-.profile-img {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
+.image {
+  width: 260px;
+  height: 260px;
+  border: 6px solid #333;
   border-radius: 50%;
-  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;   /* VERY IMPORTANT */
+  margin: auto;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* PREVENTS CRACKING */
 }
